@@ -15,5 +15,7 @@ std::string Greeter::greet(LanguageCode lang) const {
       return "¡Hola " + name + "!";
     case LanguageCode::FR:
       return "Bonjour " + name + "!";
+    case LanguageCode::IT:
+      return "Ciao " + name + "!";
   }
 }
